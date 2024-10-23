@@ -28,7 +28,7 @@ https://keras.io/examples/nlp/lstm_seq2seq/
 
 ==== Image compression
 
-The encoder-decoder architecture works by:
+## The encoder-decoder architecture works by:
 1. Capturing information: The encoder accepts a single data element from the input sequence, processes it, and collects information about it.
 2. Creating context vectors: The encoder produces a set of context vectors.
 3. Generating an output sequence: The decoder uses the context vectors to generate an output sequence. 
