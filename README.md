@@ -1,7 +1,8 @@
 # Engish-French-Translation-ENC_DEC_MODEL
-
-# Here we are using a encoder-decoder deep learning architecture to translate english sentences to french. For Encoders we are using LSTMs for understanding the context of the input text. For Decoders too we are using LSTMs for the generation of sequential French words.
-We referred the blog(s): https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html, https://keras.io/examples/nlp/lstm_seq2seq/
+Here we are using a encoder-decoder deep learning architecture to translate english sentences to french. For Encoders we are using LSTMs for understanding the context of the input text. For Decoders too we are using LSTMs for the generation of sequential French words.
+# We referred the blog(s):
+https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html, 
+https://keras.io/examples/nlp/lstm_seq2seq/
 
 ![image](https://github.com/user-attachments/assets/35d674e1-bad5-4564-997f-3a8821c841a5)
 
@@ -11,11 +12,17 @@ We referred the blog(s): https://blog.keras.io/a-ten-minute-introduction-to-sequ
 == The encoder processes the input sequence to create context vectors, which the decoder then uses to generate the output sequence. 
 == Encoder-decoder architectures are used in many AI applications, including:
 ==== Machine translation: For example, Google Translate uses an encoder-decoder structure.
+
 ==== Text summarization
+
 ==== Image captioning
+
 ==== Image generation
+
 ==== Image-to-image translation
+
 ==== Image compression 
+
 
 The encoder-decoder architecture works by:
 1. Capturing information: The encoder accepts a single data element from the input sequence, processes it, and collects information about it.
