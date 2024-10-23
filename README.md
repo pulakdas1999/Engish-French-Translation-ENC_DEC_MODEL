@@ -7,15 +7,25 @@ https://keras.io/examples/nlp/lstm_seq2seq/
 ![image](https://github.com/user-attachments/assets/35d674e1-bad5-4564-997f-3a8821c841a5)
 
 # ENCODER DECODER ARCHITECTURE:
+
 == In machine learning, an encoder-decoder is a neural network architecture that translates one type of data sequence into another.
+
 == It's made up of two parts: an encoder and a decoder.
+
 == The encoder processes the input sequence to create context vectors, which the decoder then uses to generate the output sequence.
+
 == Encoder-decoder architectures are used in many AI applications, including:
+
 ==== Machine translation: For example, Google Translate uses an encoder-decoder structure.
+
 ==== Text summarization
+
 ==== Image captioning
+
 ==== Image generation
+
 ==== Image-to-image translation
+
 ==== Image compression
 
 The encoder-decoder architecture works by:
